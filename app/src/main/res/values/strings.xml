@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">WhatToCook</string>
+    <string name="title_activity_lunch">LunchActivity</string>
+    <string-array name="dinnerList">
+        <item>Редактировать</item>
+        <item>Удалить</item>
+    </string-array>
 </resources>

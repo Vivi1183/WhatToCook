@@ -27,8 +27,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Завтраки"
+            android:id="@+id/breakfast_name"
             android:textStyle="normal"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:onClick="goToBreakfast"/>
 
         <ImageButton
             android:layout_width="30dp"
@@ -46,8 +48,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="обеды / ужины"
+            android:id="@+id/dinner_name"
             android:textStyle="normal"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:onClick="goToDinner"/>
 
         <ImageButton
             android:layout_width="30dp"
@@ -65,8 +69,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="супы"
+            android:id="@+id/sup_name"
             android:textStyle="normal"
-            android:layout_weight="2"/>
+            android:layout_weight="2"
+            android:onClick="goToSoup"/>
 
         <ImageButton
             android:layout_width="30dp"
